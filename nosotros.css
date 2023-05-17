@@ -86,7 +86,9 @@ nav ul {
 
 
 
-
+.greeting {
+text-align: center;
+}
 /* button{ 
     font-size: 33px;
     text-align: center;
