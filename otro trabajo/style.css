@@ -1,0 +1,16 @@
+.row { 
+    display: flex; 
+    flex-wrap: 
+    wrap; margin: 10px;
+}
+
+.column {
+flex: 1;
+padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .column {
+    flex: 100%;
+    }
+    }

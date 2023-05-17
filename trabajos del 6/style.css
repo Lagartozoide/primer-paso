@@ -1,0 +1,44 @@
+.divdearriba{
+    margin: 30px;
+
+    padding: 20px;
+    
+    width: 400px ;
+    
+    height: 200px ;
+
+    background-color: rgb(102, 124, 196);
+
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra */
+}
+.divdelmedio{
+    border: 30px;
+
+    margin: 30px;
+
+    padding: 20px;
+    
+    width: 400px ;
+    
+    height: 200px ;
+
+    background-color: rgb(109, 18, 18);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra */
+}
+
+.divabajo{
+    margin: 30px;
+
+    padding: 20px;
+    
+    width: 400px ;
+    
+    height:  200px ;
+
+    background-color: rgb(203, 236, 15);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); /*Agrega sombra */ 
+}
+
+.divprincipal{
+    background-color: yellow;
+}

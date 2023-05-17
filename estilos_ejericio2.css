@@ -1,0 +1,35 @@
+
+body{
+    background: rgb(75, 197, 75);
+    font-family: 'Poppins', sans-serif;
+    display: center;
+}
+
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+
+    border: 1px solid darkkhaki;
+  }
+  
+  .contenedor:nth-child(1) {
+    background-color: coral;
+    justify-content: flex-start; /* Alinea la primera caja a la izquierda */
+  }
+  
+  .contenedor:nth-child(2) {
+    background-color: cornflowerblue;
+    justify-content: center; /* Alinea la segunda caja en el medio */
+  }
+  
+  .contenedor:nth-child(3) {
+    background-color: darkseagreen;
+    justify-content: flex-end; /* Alinea la tercera caja a la derecha */
+  }
+  
+  .elemento {
+    width: 100px;
+    height: 100px;
+    margin: 5px; /* Añade margen para separar los elementos */
+  }
