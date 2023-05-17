@@ -32,10 +32,28 @@
         <p> index</p>
 
 <main>
-    <p> aca estaria el audio</p>
-    <audio autoplay>
-        <source src="Ariaudio.mp3" type="audio/mpeg">
-        <p> aca estaria el audio</p>
+    <div>
+        <audio id="audioPlayer">
+            <source src="Ariaudio.mp3" type="audio/mpeg">
+            <!-- Agrega más etiquetas source si deseas admitir múltiples formatos de archivo de audio -->
+            Tu navegador no admite la reproducción de audio.
+          </audio>
+        
+          <button onclick="playAudio()">Play</button>
+          <button onclick="pauseAudio()">Pause</button>
+        
+          <script>
+            var audio = document.getElementById('audioPlayer');
+        
+            function playAudio() {
+              audio.play();
+            }
+        
+            function pauseAudio() {
+              audio.pause();
+            }
+          </script>
+    </div>
     </div> 
                 <h1>Bienvenidos a mi primer Website!</h1>   
                     <p>Soy Pedro, ¡y esta es mi primera página web!</p>
